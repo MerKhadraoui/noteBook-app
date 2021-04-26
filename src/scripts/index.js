@@ -1,6 +1,6 @@
-const List = document.querySelector("#List");
+const list = document.querySelector("#List");
 const listArr = document.querySelectorAll("#list li");
-List.style.display = "none";
+list.style.display = "none";
 const addToList = () => {
   let userData = document.querySelector("#userData").value;
   //   console.log(userData);

@@ -4,6 +4,12 @@ body {
   margin: 0 auto;
   padding: 0;
 }
+h4 {
+  color: #cd0000;
+  font-size: 42px;
+  letter-spacing: -2px;
+  text-align: left;
+}
 #list {
   color: #555;
   font-size: 22px;
@@ -12,13 +18,16 @@ body {
   font-family: courier, monospace;
   border: 1px solid #dedede;
 }
-.list li {
+#list li {
   list-style: none;
   border-bottom: 1px dotted #ccc;
   text-indent: 25px;
   height: auto;
   padding: 10px;
   text-transform: capitalize;
+}
+#list li:hover {
+  background-color: #f0f0f0;
 }
 .lines {
   border-left: 1px solid #ffaa9f;
