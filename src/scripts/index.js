@@ -24,7 +24,7 @@ const addToList = () => {
   } else {
     document.querySelector(
       "#userData"
-    ).placeholder = ` Please Enter text first`;
+    ).placeholder = `     Please Enter text first`;
   }
 };
 const colorGen = () => {
