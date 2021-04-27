@@ -52,7 +52,7 @@ body {
   border: none;
   border-bottom: 2px dashed grey;
   position: relative;
-  bottom: 23px;
+  bottom: 20px;
   background-color: transparent;
   height: 2rem;
   width: 50%;
@@ -73,12 +73,13 @@ button:hover {
 }
 
 li {
-  list-style: none;
+  list-style: circle;
   color: #10468b;
   max-width: 100vw;
   word-wrap: break-word;
   overflow-wrap: break-word;
   position: relative;
+  bottom: 13px;
 }
 
 li:nth-child(even) {
