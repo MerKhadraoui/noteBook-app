@@ -1,4 +1,4 @@
-## my NotrBook APP: 
+## my NoteBook APP: 
 https://merkhadraoui.github.io/noteBook-app/
 
 
